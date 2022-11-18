@@ -1,6 +1,7 @@
 .karty {
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
 }
 
 .karty > *{
@@ -24,9 +25,7 @@
 }
 
 .karta {
-    align-items: center;
     padding: 20px;
-    display: flex;
     flex-direction: column;
 }
 
