@@ -32,12 +32,9 @@
     height: 100%;
 }
 
-.karta__border {
-    border-left: 1px solid #dfdfdf;
-}
-
 .nazev {
     text-decoration: underline;
+    height: 3em;
 }
 
 .info {
@@ -47,14 +44,12 @@
     margin-bottom: 10px;
     font-size: 14px;
     padding-top: 10px;
-    height: 4em;
 }
 
 .sklad {
     border-top: 1px solid #dfdfdf;
     text-align: center;
     padding-top: 10px;
-    height: 2em;
 }
 
 .cena {
