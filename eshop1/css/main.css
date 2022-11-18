@@ -20,11 +20,11 @@
 
 .image{ 
     max-height: 280px;
+    cursor: pointer;
 }
 
 .karta {
     align-items: center;
-    border-left: 1px solid #dfdfdf;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -32,9 +32,8 @@
     height: 100%;
 }
 
-.karta__1 {
-    align-items: center;
-    padding: 20px;
+.karta__border {
+    border-left: 1px solid #dfdfdf;
 }
 
 .nazev {
@@ -48,12 +47,14 @@
     margin-bottom: 10px;
     font-size: 14px;
     padding-top: 10px;
+    height: 4em;
 }
 
 .sklad {
     border-top: 1px solid #dfdfdf;
     text-align: center;
     padding-top: 10px;
+    height: 2em;
 }
 
 .cena {
@@ -91,6 +92,7 @@ s {
     border-radius: .5em;
     border: hidden;
     display: block;
+    cursor: pointer;
 }
 
 .gift {
